@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXORA — Digital Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader">
+    <h1>NEXORA<span>.</span></h1>
+</div>
+
+<header>
+    <nav>
+        <a href="#" class="logo">NEXORA<span>.</span></a>
+
+        <ul id="nav">
+            <li><a href="#home">Bosh sahifa</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#work">Loyihalar</a></li>
+            <li><a href="#contact">Aloqa</a></li>
+        </ul>
+
+        <a href="#contact" class="nav-btn">Loyiha boshlash ↗</a>
+        <button class="menu" id="menu">☰</button>
+    </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <div class="tag">✦ DIGITAL INNOVATION AGENCY</div>
+
+        <h1>
+            Kelajakni<br>
+            <span>birgalikda</span><br>
+            yaratamiz.
+        </h1>
+
+        <p>
+            Biz brendlar va bizneslar uchun kreativ dizayn,
+            zamonaviy texnologiya va raqamli yechimlar yaratamiz.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#work" class="primary-btn">Ishlarimizni ko‘rish ↗</a>
+            <a href="#services" class="secondary-btn">Xizmatlarimiz</a>
+        </div>
+
+        <div class="hero-info">
+            <div><strong>50+</strong><small>Loyihalar</small></div>
+            <div><strong>30+</strong><small>Mijozlar</small></div>
+            <div><strong>5 yil</strong><small>Tajriba</small></div>
+        </div>
+    </div>
+
+    <div class="hero-art">
+        <div class="orb"></div>
+        <div class="glass-card">
+            <span>✦</span>
+            <h2>Think.</h2>
+            <h2>Create.</h2>
+            <h2 class="gradient">Innovate.</h2>
+            <p>Ideas become reality.</p>
+        </div>
+        <div class="floating f1">✧ Creative</div>
+        <div class="floating f2">⚡ Innovation</div>
+    </div>
+</section>
+
+<section class="services section" id="services">
+    <div class="section-label">01 / SERVICES</div>
+    <h2>Biz nimalar <span>qilamiz?</span></h2>
+
+    <div class="service-grid">
+        <article class="service">
+            <div class="service-icon">⌘</div>
+            <h3>Web Development</h3>
+            <p>Professional va tezkor web saytlar yaratish.</p>
+            <a href="#contact">Batafsil ↗</a>
+        </article>
+
+        <article class="service">
+            <div class="service-icon">✳</div>
+            <h3>UI / UX Design</h3>
+            <p>Foydalanuvchilar uchun qulay va chiroyli dizayn.</p>
+            <a href="#contact">Batafsil ↗</a>
+        </article>
+
+        <article class="service">
+            <div class="service-icon">◈</div>
+            <h3>Brand Identity</h3>
+            <p>Brendingiz uchun unutilmas vizual uslub.</p>
+            <a href="#contact">Batafsil ↗</a>
+        </article>
+    </div>
+</section>
+
+<section class="work section" id="work">
+    <div class="section-label">02 / PORTFOLIO</div>
+    <h2>Tanlangan <span>loyihalar</span></h2>
+
+    <div class="filters">
+        <button class="filter active" data-filter="all">Barchasi</button>
+        <button class="filter" data-filter="web">Web</button>
+        <button class="filter" data-filter="design">Design</button>
+        <button class="filter" data-filter="brand">Branding</button>
+    </div>
+
+    <div class="work-grid">
+        <article class="work-card" data-category="web">
+            <div class="work-image purple">01</div>
+            <h3>Digital Commerce</h3>
+            <p>Web Development</p>
+        </article>
+
+        <article class="work-card" data-category="design">
+            <div class="work-image blue">02</div>
+            <h3>Creative Studio</h3>
+            <p>UI / UX Design</p>
+        </article>
+
+        <article class="work-card" data-category="brand">
+            <div class="work-image orange">03</div>
+            <h3>Nova Branding</h3>
+            <p>Brand Identity</p>
+        </article>
+    </div>
+</section>
+
+<section class="cta" id="contact">
+    <div class="section-label">03 / CONTACT</div>
+    <h2>Katta g‘oyangiz bormi?</h2>
+    <p>Keling, uni birgalikda amalga oshiramiz.</p>
+
+    <form id="contactForm">
+        <input type="text" id="name" placeholder="Ismingiz" required>
+        <input type="email" id="email" placeholder="Email manzilingiz" required>
+        <textarea id="message" placeholder="Loyihangiz haqida yozing..." required></textarea>
+        <button type="submit">Xabar yuborish ↗</button>
+    </form>
+
+    <p id="response"></p>
+</section>
+</main>
+
+<footer>
+    <a href="#" class="logo">NEXORA<span>.</span></a>
+    <p>© 2026 NEXORA Digital Agency.</p>
+    <a href="#home">Yuqoriga ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
